@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.voting-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+}
+
+.teacher-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 110px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.teacher-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-image {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 3px solid #ddd;
+}
+
+.teacher-name {
+    font-size: 1;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+/* Efek saat diklik */
+.teacher-card.voted {
+    border: 4px solid #FF9800; /* Border or highlight for the voted card */
+}
+
+/*footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
+    */
+
+.controls-container {
+    margin-bottom: 20px;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #f44336; /* Warna merah untuk reset */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.reset-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Jika Anda menambahkan tombol download, tambahkan style-nya */
+.download-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Warna biru */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+/* --- Gaya Khusus Halaman Hasil --- */
+
+.results-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-area {
+    width: 100%;
+    max-height: 450px;
+    margin: 20px 0;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.last-updated {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 20px;
+}
+
+.results-button {
+    display: inline-block; /* Membuat link berperilaku seperti blok untuk menerima padding */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+}

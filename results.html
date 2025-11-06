@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Voting Guru Terfavorit</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>📊 Hasil Voting Guru Terfavorit</h1>
+    </header>
+
+    <div class="controls-container">
+        <a href="index.html" class="back-button">← Kembali ke Halaman Voting</a>
+    </div>
+
+    <main class="results-container">
+        <h2>Jumlah Suara Saat Ini</h2>
+        <div class="chart-area">
+            <canvas id="voteChart"></canvas>
+        </div>
+        
+        <p class="last-updated"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aplikasi Voting Sederhana</p>
+    </footer>
+
+    <script src="results_script.js"></script>
+</body>
+</html>

@@ -21,12 +21,12 @@ const defaultTeachers = [
     { id: 13, name: "Mam Fitrya", photo: "fitrya.jpeg", votes: 0 },
     { id: 14, name: "Mam Fanny", photo: "fanny.jpeg", votes: 0 },
     { id: 15, name: "Mam Dila", photo: "dila.jpeg", votes: 0 },
-    { id: 16, name: "Mam Eva", photo: "ani.jpg", votes: 0 },
+    { id: 16, name: "Mam Eva", photo: "eva.jpeg", votes: 0 },
     { id: 17, name: "Mam Zila", photo: "azila.jpeg", votes: 0 },
     { id: 18, name: "Mam caca", photo: "caca.jpeg", votes: 0 },
     { id: 19, name: "Mam Tri", photo: "tri.jpeg", votes: 0 },
     { id: 20, name: "Mam Ani", photo: "ani.jpeg", votes: 0 },
-    { id: 21, name: "Mam Dara", photo: "ani.jpg", votes: 0 },
+    { id: 21, name: "Mam Dara", photo: "dara.jpeg", votes: 0 },
     { id: 22, name: "Mr Syakur", photo: "syakur.jpeg", votes: 0 },
     { id: 23, name: "Mr Heru", photo: "heru.jpeg", votes: 0 },
     { id: 24, name: "Mr Andi", photo: "andi.jpeg", votes: 0 },
@@ -251,6 +251,7 @@ function generateReport() {
 
 // Pastikan fungsi-fungsi lain (loadTeachers, saveTeachers, renderTeachers, handleVote, resetVotes)
 // tetap ada di script.js Anda.
+
 
 
 

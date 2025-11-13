@@ -6,31 +6,31 @@ const STORAGE_KEY = 'favoriteTeachersVotes';
 // Data Guru Default (digunakan jika Local Storage kosong)
 const defaultTeachers = [
     // CATATAN: Pastikan Anda memiliki file gambar ini di folder yang sama!
-    { id: 1, name: "Mam Hayu", photo: "foto/hayu.jpeg", votes: 0 },
-    { id: 2, name: "Mam Yuli", photo: "foto/yuli.jpeg", votes: 0 },
-    { id: 3, name: "Mam Leni", photo: "foto/leni.jpeg", votes: 0 },
-    { id: 4, name: "Mam Sekar", photo: "foto/sekar.jpeg", votes: 0 },
-    { id: 5, name: "Mam Ika", photo: "foto/ika.jpeg", votes: 0 },
-    { id: 6, name: "Mam Venny", photo: "foto/venny.jpeg", votes: 0 },
-    { id: 7, name: "Mam Neng", photo: "foto/neng.jpeg", votes: 0 },
-    { id: 8, name: "Mam Aul", photo: "foto/aul.jpeg", votes: 0 },
-    { id: 9, name: "Mam Mega", photo: "foto/mega.jpeg", votes: 0 },
-    { id: 10, name: "Mam Desi", photo: "foto/desy.jpeg", votes: 0 },
-    { id: 11, name: "Mam Ami", photo: "foto/ami.jpeg", votes: 0 },
-    { id: 12, name: "Mam Fania", photo: "foto/fannia.jpeg", votes: 0 },
-    { id: 13, name: "Mam Fitrya", photo: "foto/fitrya.jpeg", votes: 0 },
-    { id: 14, name: "Mam Fanny", photo: "foto/fanny.jpeg", votes: 0 },
-    { id: 15, name: "Mam Dila", photo: "foto/dila.jpeg", votes: 0 },
-    { id: 16, name: "Mam Eva", photo: "foto/eva.jpeg", votes: 0 },
-    { id: 17, name: "Mam Zila", photo: "foto/azila.jpeg", votes: 0 },
-    { id: 18, name: "Mam caca", photo: "foto/caca.jpeg", votes: 0 },
-    { id: 19, name: "Mam Tri", photo: "foto/tri.jpeg", votes: 0 },
-    { id: 20, name: "Mam Ani", photo: "foto/ani.jpeg", votes: 0 },
-    { id: 21, name: "Mr Syakur", photo: "foto/syakur.jpeg", votes: 0 },
-    { id: 22, name: "Mr Heru", photo: "foto/heru.jpeg", votes: 0 },
-    { id: 23, name: "Mr Andi", photo: "foto/andi.jpeg", votes: 0 },
-    { id: 24, name: "Mr Ages", photo: "foto/ages.jpeg", votes: 0 },
-    { id: 25, name: "Mr Rajab", photo: "foto/rajab.jpeg", votes: 0 },
+    { id: 1, name: "Mam Hayu", photo: "hayu.jpeg", votes: 0 },
+    { id: 2, name: "Mam Yuli", photo: "yuli.jpeg", votes: 0 },
+    { id: 3, name: "Mam Leni", photo: "leni.jpeg", votes: 0 },
+    { id: 4, name: "Mam Sekar", photo: "sekar.jpeg", votes: 0 },
+    { id: 5, name: "Mam Ika", photo: "ika.jpeg", votes: 0 },
+    { id: 6, name: "Mam Venny", photo: "venny.jpeg", votes: 0 },
+    { id: 7, name: "Mam Neng", photo: "neng.jpeg", votes: 0 },
+    { id: 8, name: "Mam Aul", photo: "aul.jpeg", votes: 0 },
+    { id: 9, name: "Mam Mega", photo: "mega.jpeg", votes: 0 },
+    { id: 10, name: "Mam Desi", photo: "desy.jpeg", votes: 0 },
+    { id: 11, name: "Mam Ami", photo: "ami.jpeg", votes: 0 },
+    { id: 12, name: "Mam Fania", photo: "fannia.jpeg", votes: 0 },
+    { id: 13, name: "Mam Fitrya", photo: "fitrya.jpeg", votes: 0 },
+    { id: 14, name: "Mam Fanny", photo: "fanny.jpeg", votes: 0 },
+    { id: 15, name: "Mam Dila", photo: "dila.jpeg", votes: 0 },
+    { id: 16, name: "Mam Eva", photo: "eva.jpeg", votes: 0 },
+    { id: 17, name: "Mam Zila", photo: "azila.jpeg", votes: 0 },
+    { id: 18, name: "Mam caca", photo: "caca.jpeg", votes: 0 },
+    { id: 19, name: "Mam Tri", photo: "tri.jpeg", votes: 0 },
+    { id: 20, name: "Mam Ani", photo: "ani.jpeg", votes: 0 },
+    { id: 21, name: "Mr Syakur", photo: "syakur.jpeg", votes: 0 },
+    { id: 22, name: "Mr Heru", photo: "heru.jpeg", votes: 0 },
+    { id: 23, name: "Mr Andi", photo: "andi.jpeg", votes: 0 },
+    { id: 24, name: "Mr Ages", photo: "ages.jpeg", votes: 0 },
+    { id: 25, name: "Mr Rajab", photo: "rajab.jpeg", votes: 0 },
 
 ];
 
@@ -250,3 +250,4 @@ function generateReport() {
 
 // Pastikan fungsi-fungsi lain (loadTeachers, saveTeachers, renderTeachers, handleVote, resetVotes)
 // tetap ada di script.js Anda.
+

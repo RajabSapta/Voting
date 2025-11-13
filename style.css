@@ -68,7 +68,7 @@ header {
     */
 
 .controls-container {
-    margin-bottom: 20px;
+    margin-top: 200px;
 }
 
 .reset-button {
@@ -149,4 +149,5 @@ header {
     text-decoration: none; /* Menghilangkan garis bawah pada link */
 
 }
+
 

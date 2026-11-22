@@ -32,10 +32,10 @@ const defaultTeachers = [
     { id: 24, name: "Mam Anni", photo: "ani.jpeg", votes: 0 },
     { id: 25, name: "Mam Tri", photo: "tri.jpeg", votes: 0 },
     { id: 26, name: "Mam Endang", photo: "endang.jpeg", votes: 0 },
-    { id: 26, name: "Mr Heru", photo: "heru.jpeg", votes: 0 },
-    { id: 26, name: "Mr Syakur", photo: "syakur.jpeg", votes: 0 },
-    { id: 26, name: "Mr Andi", photo: "farhan.jpeg", votes: 0 },
-    { id: 26, name: "Mr Farhan", photo: "farhan.jpeg", votes: 0 },
+    { id: 27, name: "Mr Heru", photo: "heru.jpeg", votes: 0 },
+    { id: 28, name: "Mr Syakur", photo: "syakur.jpeg", votes: 0 },
+    { id: 29, name: "Mr Andi", photo: "farhan.jpeg", votes: 0 },
+    { id: 30, name: "Mr Farhan", photo: "farhan.jpeg", votes: 0 },
 
 ];
 

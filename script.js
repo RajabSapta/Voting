@@ -7,7 +7,7 @@ const STORAGE_KEY = 'favoriteTeachersVotes';
 const defaultTeachers = [
     // CATATAN: Pastikan Anda memiliki file gambar ini di folder yang sama!
     { id: 1, name: "Mam Hayu", photo: "hayu.jpeg", votes: 0 },
-    { id: 2, name: "Mam Yuli", photo: "yuli.jpeg", votes: 0 },
+    { id: 2, name: "Mam Ami", photo: "ami.jpeg", votes: 0 },
     { id: 3, name: "Mam Leni", photo: "leni.jpeg", votes: 0 },
     { id: 4, name: "Mam Sekar", photo: "sekar.jpeg", votes: 0 },
     { id: 5, name: "Mam Ika", photo: "ika.jpeg", votes: 0 },
